@@ -1,0 +1,8 @@
+# 统一换行：仓库内一律 LF，检出时按平台转换。
+# 不加这行的话 Windows 上 core.autocrlf=true 会让整个仓库在别的机器上显示为已修改。
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.ico binary
+*.exe binary

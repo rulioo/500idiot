@@ -1,0 +1,20 @@
+# ---- 构建产物 ----
+bin/
+obj/
+
+# ---- 发布产物 ----
+# 单文件自包含 exe 有 138 MB，超过 GitHub 单文件 100 MB 的硬上限，
+# 不能进仓库。用 README 里的 dotnet publish 命令自行生成。
+publish/
+
+# ---- 运行期输出（每次无头仿真都会重新生成）----
+headless-report.txt
+run*.txt
+r1.txt
+
+# ---- IDE / 工具 ----
+.vs/
+.idea/
+*.user
+*.suo
+*.pdb
